@@ -14,10 +14,10 @@ export const LatestBlogPosts = () => {
         </div>
         <div className="row">
           <div className="col-lg-4 card border-0 bg-transparent p-4">
-            <a
+            <Link to="post"
               className="card-preview overflow-hidden position-relative w-100"
               style={{ paddingBottom: "calc( 0.53 * 100% )" }}
-              href=""
+              
             >
               <div>
                 <img
@@ -26,7 +26,7 @@ export const LatestBlogPosts = () => {
                   alt="Pic 5"
                 />
               </div>
-            </a>
+            </Link>
             <div className="card-body">
               <div className="card-meta">
                 <a href="#">RECIPES</a> · 12 min read
@@ -39,10 +39,10 @@ export const LatestBlogPosts = () => {
             </div>
           </div>
           <div className="col-lg-4 card border-0 bg-transparent p-4">
-            <a
+            <Link to="post"
               className="card-preview overflow-hidden position-relative w-100"
               style={{ paddingBottom: "calc( 0.53 * 100% )" }}
-              href=""
+              
             >
               <div>
                 <img
@@ -50,7 +50,7 @@ export const LatestBlogPosts = () => {
                   src="https://images.unsplash.com/photo-1504920397125-59f9eface9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                 />
               </div>
-            </a>
+            </Link>
             <div className="card-body">
               <div className="card-meta">
                 <a href="#">Architecture</a> · 8 min read
@@ -63,10 +63,10 @@ export const LatestBlogPosts = () => {
             </div>
           </div>
           <div className="col-lg-4 card border-0 bg-transparent p-4">
-            <a
+            <Link to="post"
               className="card-preview overflow-hidden position-relative w-100"
               style={{ paddingBottom: "calc( 0.53 * 100% )" }}
-              href=""
+              
             >
               <div>
                 <img
@@ -75,7 +75,7 @@ export const LatestBlogPosts = () => {
                   alt="Pic 7"
                 />
               </div>
-            </a>
+            </Link>
             <div className="card-body">
               <div className="card-meta">
                 <a href="#">Photography</a> · 10 min read
